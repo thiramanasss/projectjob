@@ -1,0 +1,43 @@
+{
+  "name": "posee",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ระบบ POS ร้านอาหาร — ขายหน้าร้าน + สั่งผ่าน QR ที่โต๊ะ (Next.js + libSQL) รันได้ทั้ง cloud และในเครื่องร้าน",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "drizzle-kit push",
+    "db:seed": "tsx src/db/seed.ts",
+    "db:studio": "drizzle-kit studio",
+    "tts:gen": "tsx src/db/gen-audio.ts",
+    "music:gen": "tsx src/db/gen-music.ts",
+    "backup": "tsx src/db/backup.ts",
+    "env:init": "node scripts/gen-env.mjs",
+    "test": "vitest run",
+    "setup": "npm run db:push && npm run db:seed"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.4",
+    "drizzle-orm": "^0.38.4",
+    "next": "^15.1.6",
+    "promptpay-qr": "^0.5.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "drizzle-kit": "^0.30.2",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^4.1.10"
+  }
+}

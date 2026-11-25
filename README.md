@@ -27,8 +27,8 @@ UI ภาษาไทยทั้งหมด · ตั้งค่าร้า�
 - (ถ้าติดตั้งบนคลาวด์) บัญชี [Vercel](https://vercel.com) และ [Turso](https://turso.tech) ใช้แพ็กเกจฟรีได้
 
 
-#### ติดตั้ง
-
+## ติดตั้ง โดยใช้ claude Code
+ 
 เปิดโปรเจกต์นี้ด้วย **Claude Code** แล้วสั่ง `"ติดตั้งแบบ cloud"` หรือ `"ติดตั้งแบบ local"` — Claude จะพาทำตาม `install-CLAUDE.md` (clone → deps → DB → รัน → QR → auto-start/backup) หยุดให้คุณทำเฉพาะ login/รหัส/ฮาร์ดแวร์
 
 - **`CLAUDE.md`** — คู่มือติดตั้ง (2 แบบ: cloud / local)

@@ -26,6 +26,17 @@ UI ภาษาไทยทั้งหมด · ตั้งค่าร้า�
 - Git
 - (ถ้าติดตั้งบนคลาวด์) บัญชี [Vercel](https://vercel.com) และ [Turso](https://turso.tech) ใช้แพ็กเกจฟรีได้
 
+
+#### ติดตั้ง
+
+เปิดโปรเจกต์นี้ด้วย **Claude Code** แล้วสั่ง `"ติดตั้งแบบ cloud"` หรือ `"ติดตั้งแบบ local"` — Claude จะพาทำตาม `install-CLAUDE.md` (clone → deps → DB → รัน → QR → auto-start/backup) หยุดให้คุณทำเฉพาะ login/รหัส/ฮาร์ดแวร์
+
+- **`CLAUDE.md`** — คู่มือติดตั้ง (2 แบบ: cloud / local)
+- **`DEPLOY.md`** — deploy Vercel + Turso ละเอียด
+- **`docs/DEVELOPMENT.md`** — คู่มือนักพัฒนา (สถาปัตยกรรม / DB / auth / ธีม / พิมพ์)
+- **`docs/backup.md`** · **`docs/sunmi-print.md`**
+
+
 ## ติดตั้งแบบ local (รันบนเครื่องในร้าน)
 
 ข้อมูลเก็บเป็นไฟล์ SQLite บนเครื่อง ไม่ต้องใช้อินเทอร์เน็ต

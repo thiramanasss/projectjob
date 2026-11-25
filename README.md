@@ -35,4 +35,4 @@ UI ภาษาไทยทั้งหมด · ตั้งค่าร้า�
 
 ## Stack
 
-Next.js 15 (App Router) · React 19 · TypeScript · Tailwind CSS · Drizzle ORM + libSQL (SQLite ไฟล์ / Turso)
+Next.js 15 (App Router) · React 19 · TypeScript · Tailwind CSS · Drizzle ORM   (SQLite ไฟล์ / Turso)
